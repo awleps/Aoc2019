@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2c287afe-b5ef-46b1-9bcd-181d3a8001c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>d1\d1p2.py</StartupFile>
+    <StartupFile>d2\d2p1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,12 @@
   <ItemGroup>
     <Compile Include="d1\d1p1.py" />
     <Compile Include="d1\d1p2.py" />
+    <Compile Include="d2\d2p1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d2\d2p2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -38,10 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="d1\" />
+    <Folder Include="d2\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="d1\d1p1.txt" />
     <Content Include="d1\d1p2.txt" />
+    <Content Include="d2\d2p1.txt" />
+    <Content Include="d2\d2p2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
