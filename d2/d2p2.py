@@ -3,8 +3,8 @@ inp = file.read().split(",")
 file.close()
 inp = [int(a) for a in inp]
 
-for i in range(256):
-    for j in range(256):
+for i in range(100):
+    for j in range(100):
         data = inp.copy()
         data[1] = i
         data[2] = j
